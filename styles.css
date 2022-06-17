@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  vertical-align: middle;
+}
+
+body{
+  margin: 0px;
+  background-color: rgb(241, 212, 217);
+}
+
+.container{
+  width: 1260px;
+  padding: 0px 30px;
+  margin: auto;
+}
+
+.tourism-box { 
+  position: relative;
+  display: flex;
+}
+
+.place-img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.back-link {
+  position: absolute;
+  top: 45px;
+  left: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.back-icon {
+  margin-right: 3px;
+}
+
+.city-view {
+  width: 300px;
+}
+
+.tourism-content {
+  display: flex;
+}
+
+.country-info {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  padding-left: 35px;
+}
+
+.countries {
+  margin: 0;
+  margin-left: auto;
+  margin-bottom: 100px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.country-name {
+  list-style-type: none;
+  margin: 25px;
+}
+
+.country-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #a19999;
+}
+
+.tourism-heading {
+  margin: 0 auto;
+  margin-bottom: 30px ;
+  width: 350px;
+  font-family: 'Playfair+Display';
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 56px;
+  color: #000000;
+  text-align: start;
+}
+
+.rectangle {
+  width: 50px;
+  height: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
+.tourist-name {
+  margin: 0 auto;
+  padding: 0;
+  width: 350px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  text-align: start;
+  margin-bottom: 55px;
+}
+
+.view-inner {
+  position: relative;
+}
+
+.preview {
+  width: 250px;
+  height: 200px;
+  margin-right: 25px;
+}
+
+.play-button {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.moreview-link{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.city-describe {
+  width: 300px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+} 
+
+.active {
+  color: #000000;
+}
